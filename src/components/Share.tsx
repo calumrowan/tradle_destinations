@@ -55,7 +55,11 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://tradle-destinations.onrender.com/"].join("\n");
+    return [
+      title,
+      guessString,
+      "https://tradle-destinations.onrender.com",
+    ].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme, isAprilFools]);
 
   return (
