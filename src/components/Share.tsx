@@ -11,7 +11,7 @@ import { Guess } from "../domain/guess";
 import React from "react";
 import { SettingsData } from "../hooks/useSettings";
 
-const START_DATE = DateTime.fromISO("2022-03-06");
+const START_DATE = DateTime.fromISO("2023-05-12");
 
 interface ShareProps {
   guesses: Guess[];
@@ -46,7 +46,7 @@ export function Share({
       : "";
     const title = isAprilFools
       ? `#Tradle #AprilFoolsDay #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`
-      : `#Tradle #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`;
+      : `#Tradle (Destinations) #${dayCount} ${guessCount}/6${difficultyModifierEmoji}`;
 
     const guessString = guesses
       .map((guess) => {
