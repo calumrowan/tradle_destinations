@@ -20,9 +20,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         </div>
         <div>
           What exactly am I trying to guess? Each day you&apos;ll see a
-          different treemap of the exports for a particular country. Each
-          rectangle represents the share of a given product proportional to its
-          percentage of exports for that country.
+          different treemap of the export destinations for a particular country.
+          Each rectangle represents the share of a given destination
+          proportional to its percentage of exports for that country.
         </div>
         <div>Each guess must be a valid country, territory, ...</div>
         <div>
@@ -93,7 +93,6 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         A new <Tradele /> will be available every day!
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <div className="font-bold">About distance</div>
         <div>
           The distances displayed correspond to the distances between the
           selected and the target territory centers.
@@ -155,10 +154,10 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           >
             @ximoes
           </a>
-          . Source code on{" "}
+          , destinations implemented as a variant by Calum Rowan. Source code on{" "}
           <a
             className="underline"
-            href="https://github.com/alexandersimoes/tradle"
+            href="https://github.com/calumrowan/tradle_destinations"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -169,11 +168,11 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         <div>
           <a
             className="underline"
-            href="https://oec.world"
+            href="https://oec.world/en/tradle/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn more about trade data on the OEC! 🌎
+            Try the original <Tradele />
           </a>
         </div>
       </div>
