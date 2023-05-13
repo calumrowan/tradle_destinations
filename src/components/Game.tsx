@@ -186,7 +186,7 @@ export function Game({ settingsData }: GameProps) {
       )}
       {/* <div className="my-1 mx-auto"> */}
       <h2 className="font-bold text-center">
-        Guess which country exports these products!
+        Guess which country exports to these places!
       </h2>
       <div
         style={{
