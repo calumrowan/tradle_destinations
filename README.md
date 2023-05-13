@@ -1,6 +1,6 @@
-# Tradle
+# Tradle - Destinations Edition
 
-Play this international wordle here: https://oec.world/en/tradle/!
+Play this international wordle here: https://tradle-destinations.onrender.com/!
 
 # Development requirements
 
@@ -22,3 +22,4 @@ npm start
 
 - Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
 - Country emojis => https://www.npmjs.com/package/country-emoji
+- Check out the original Tradle  => https://github.com/alexandersimoes/tradle
